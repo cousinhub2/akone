@@ -142,7 +142,7 @@ export default function Home() {
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-4 gap-8 mb-8">
                         <div className="col-span-1 md:col-span-2">
-                            <div className="relative w-80 h-28 mb-4">
+                            <div className="relative w-64 h-20 md:w-80 md:h-28 mb-4">
                                 <Image
                                     src="/akone-logo-new.jpg"
                                     alt="AK ONE Logo"
