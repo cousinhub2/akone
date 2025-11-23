@@ -142,13 +142,10 @@ export default function Home() {
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-4 gap-8 mb-8">
                         <div className="col-span-1 md:col-span-2">
-                            <div className="relative w-64 h-20 md:w-80 md:h-28 mb-4">
-                                <Image
-                                    src="/akone-logo-new.jpg"
-                                    alt="AK ONE Logo"
-                                    fill
-                                    className="object-contain invert mix-blend-screen"
-                                />
+                            <div className="mb-4">
+                                <span className="font-playfair text-3xl font-bold text-white tracking-tight">
+                                    AK ONE
+                                </span>
                             </div>
                             <p className="text-gray-400 max-w-sm">
                                 Cabinet de conseil en ressources humaines et d'accompagnement des entreprises et des dirigeants.

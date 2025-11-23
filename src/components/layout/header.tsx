@@ -13,15 +13,9 @@ export function Header() {
         <header className="border-b bg-white/80 backdrop-blur-md sticky top-0 z-50">
             <div className="container mx-auto px-4 h-20 md:h-28 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2">
-                    <div className="relative w-48 h-16 md:w-80 md:h-28 transition-all duration-300">
-                        <Image
-                            src="/akone-logo-new.jpg"
-                            alt="AK ONE Logo"
-                            fill
-                            className="object-contain"
-                            priority
-                        />
-                    </div>
+                    <span className="font-playfair text-2xl md:text-3xl font-bold text-primary tracking-tight">
+                        AK ONE
+                    </span>
                 </Link>
 
                 {/* Desktop Navigation */}
@@ -60,16 +54,16 @@ export function Header() {
                 <div className="md:hidden absolute top-full left-0 w-full bg-white border-b shadow-lg p-4 flex flex-col gap-4 animate-in slide-in-from-top-5">
                     <div className="flex flex-col gap-2">
                         <p className="font-bold text-primary mb-2">Mes offres</p>
-                        <Link href="/services/leader-rh" className="pl-4 py-2 hover:bg-muted rounded text-sm" onClick={() => setIsMenuOpen(false)}>Leader RH</Link>
-                        <Link href="/services/dirigeants-pme" className="pl-4 py-2 hover:bg-muted rounded text-sm" onClick={() => setIsMenuOpen(false)}>Dirigeants PME</Link>
-                        <Link href="/services/conseil-strategique" className="pl-4 py-2 hover:bg-muted rounded text-sm" onClick={() => setIsMenuOpen(false)}>Conseil Stratégique</Link>
-                        <Link href="/services/coaching" className="pl-4 py-2 hover:bg-muted rounded text-sm" onClick={() => setIsMenuOpen(false)}>Coaching</Link>
-                        <Link href="/services/coaching-jeunes" className="pl-4 py-2 hover:bg-muted rounded text-sm" onClick={() => setIsMenuOpen(false)}>Coaching Jeunes</Link>
-                        <Link href="/services/transition" className="pl-4 py-2 hover:bg-muted rounded text-sm" onClick={() => setIsMenuOpen(false)}>Transition</Link>
+                        <Link href="/services/leader-rh" className="pl-4 py-2 hover:bg-muted rounded text-sm text-foreground" onClick={() => setIsMenuOpen(false)}>Leader RH</Link>
+                        <Link href="/services/dirigeants-pme" className="pl-4 py-2 hover:bg-muted rounded text-sm text-foreground" onClick={() => setIsMenuOpen(false)}>Dirigeants PME</Link>
+                        <Link href="/services/conseil-strategique" className="pl-4 py-2 hover:bg-muted rounded text-sm text-foreground" onClick={() => setIsMenuOpen(false)}>Conseil Stratégique</Link>
+                        <Link href="/services/coaching" className="pl-4 py-2 hover:bg-muted rounded text-sm text-foreground" onClick={() => setIsMenuOpen(false)}>Coaching</Link>
+                        <Link href="/services/coaching-jeunes" className="pl-4 py-2 hover:bg-muted rounded text-sm text-foreground" onClick={() => setIsMenuOpen(false)}>Coaching Jeunes</Link>
+                        <Link href="/services/transition" className="pl-4 py-2 hover:bg-muted rounded text-sm text-foreground" onClick={() => setIsMenuOpen(false)}>Transition</Link>
                     </div>
                     <hr />
-                    <Link href="/#about" className="py-2 font-medium hover:text-primary" onClick={() => setIsMenuOpen(false)}>À propos</Link>
-                    <Link href="/contact" className="py-2 font-medium hover:text-primary" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+                    <Link href="/#about" className="py-2 font-medium hover:text-primary text-foreground" onClick={() => setIsMenuOpen(false)}>À propos</Link>
+                    <Link href="/contact" className="py-2 font-medium hover:text-primary text-foreground" onClick={() => setIsMenuOpen(false)}>Contact</Link>
                     <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
                         <Button className="w-full">Prendre rendez-vous</Button>
                     </Link>
