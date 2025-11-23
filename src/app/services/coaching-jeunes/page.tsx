@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function CoachingJeunesPage() {
     return (
@@ -96,9 +97,11 @@ export default function CoachingJeunesPage() {
                         </div>
 
                         <div className="mt-16 text-center">
-                            <Button size="lg">
-                                Aider mon enfant à s'orienter <ArrowRight className="ml-2 h-4 w-4" />
-                            </Button>
+                            <Link href="/contact?subject=Coaching Jeunes">
+                                <Button size="lg">
+                                    Aider mon enfant à s'orienter <ArrowRight className="ml-2 h-4 w-4" />
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                 </section>

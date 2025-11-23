@@ -1,11 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { Header } from "@/components/layout/header";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 
-export default function ContactPage() {
+function ContactForm() {
+    const searchParams = useSearchParams();
     const [formData, setFormData] = useState({
         firstname: "",
         lastname: "",
@@ -13,6 +15,16 @@ export default function ContactPage() {
         subject: "",
         message: ""
     });
+
+    useEffect(() => {
+        const subjectParam = searchParams.get('subject');
+        if (subjectParam) {
+            setFormData(prev => ({
+                ...prev,
+                subject: subjectParam
+            }));
+        }
+    }, [searchParams]);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -178,5 +190,20 @@ ${formData.message}
                 </section>
             </main>
         </div>
+    );
+}
+
+export default function ContactPage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen flex flex-col">
+                <Header />
+                <main className="flex-1 flex items-center justify-center">
+                    <p>Chargement...</p>
+                </main>
+            </div>
+        }>
+            <ContactForm />
+        </Suspense>
     );
 }
