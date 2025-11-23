@@ -162,9 +162,9 @@ export default function Home() {
                         <div>
                             <h4 className="font-bold mb-4">Contact</h4>
                             <ul className="space-y-2 text-gray-400 text-sm">
-                                <li>contact@akone.org</li>
+                                <li>helene@akone.org</li>
                                 <li>Paris, France</li>
-                                <li><Link href="#" className="hover:text-primary">LinkedIn</Link></li>
+                                <li><a href="https://www.linkedin.com/in/heleneneukirchrhcoach" target="_blank" rel="noopener noreferrer" className="hover:text-primary">LinkedIn</a></li>
                             </ul>
                         </div>
                     </div>
