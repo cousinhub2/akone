@@ -1,12 +1,22 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
+import Image from "next/image";
+
 export function Header() {
     return (
-        <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-            <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-                <Link href="/" className="flex items-center gap-2 font-playfair font-bold text-xl tracking-tight hover:opacity-80 transition-opacity">
-                    <span className="text-primary">AK</span> ONE
+        <header className="border-b bg-white/80 backdrop-blur-md sticky top-0 z-50">
+            <div className="container mx-auto px-4 h-28 flex items-center justify-between">
+                <Link href="/" className="flex items-center gap-2">
+                    <div className="relative w-80 h-28">
+                        <Image
+                            src="/akone-logo-new.jpg"
+                            alt="AK ONE Logo"
+                            fill
+                            className="object-contain"
+                            priority
+                        />
+                    </div>
                 </Link>
                 <nav className="hidden md:flex gap-6 text-sm font-medium text-muted-foreground">
                     <div className="relative group">
@@ -25,7 +35,7 @@ export function Header() {
                     <Link href="/#about" className="hover:text-primary transition-colors">À propos</Link>
                     <Link href="/#contact" className="hover:text-primary transition-colors">Contact</Link>
                 </nav>
-                <Link href="#contact">
+                <Link href="/contact">
                     <Button>Prendre rendez-vous</Button>
                 </Link>
             </div>

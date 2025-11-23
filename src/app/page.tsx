@@ -25,7 +25,7 @@ export default function Home() {
                                 Nous accompagnons votre transformation humaine.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                                <Link href="#contact">
+                                <Link href="/contact">
                                     <Button size="lg" className="text-base">
                                         Discuter de vos enjeux <ArrowRight className="ml-2 h-4 w-4" />
                                     </Button>
@@ -142,8 +142,13 @@ export default function Home() {
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-4 gap-8 mb-8">
                         <div className="col-span-1 md:col-span-2">
-                            <div className="font-playfair font-bold text-2xl mb-4">
-                                <span className="text-primary">AK</span> ONE
+                            <div className="relative w-80 h-28 mb-4">
+                                <Image
+                                    src="/akone-logo-new.jpg"
+                                    alt="AK ONE Logo"
+                                    fill
+                                    className="object-contain invert mix-blend-screen"
+                                />
                             </div>
                             <p className="text-gray-400 max-w-sm">
                                 Cabinet de conseil en ressources humaines et d'accompagnement des entreprises et des dirigeants.
