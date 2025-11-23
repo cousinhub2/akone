@@ -120,7 +120,7 @@ export default function Home() {
                                 <p className="text-muted-foreground">
                                     AK ONE est né de la conviction que la performance durable passe par l'épanouissement des hommes et des femmes qui composent l'entreprise.
                                 </p>
-                                <Link href="#about">
+                                <Link href="https://www.linkedin.com/in/heleneneukirchrhcoach" target="_blank" rel="noopener noreferrer">
                                     <Button variant="outline">En savoir plus sur la fondatrice</Button>
                                 </Link>
                             </div>
@@ -138,14 +138,17 @@ export default function Home() {
                 </section>
             </main>
 
-            <footer className="bg-foreground text-background py-12">
+            <footer className="bg-neutral-900 text-white py-12">
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-4 gap-8 mb-8">
                         <div className="col-span-1 md:col-span-2">
-                            <div className="mb-4">
-                                <span className="font-playfair text-3xl font-bold text-white tracking-tight">
-                                    AK ONE
-                                </span>
+                            <div className="relative w-64 h-20 md:w-80 md:h-28 mb-4">
+                                <Image
+                                    src="/akone-logo-v3.png"
+                                    alt="AK ONE Logo"
+                                    fill
+                                    className="object-contain invert mix-blend-screen"
+                                />
                             </div>
                             <p className="text-gray-400 max-w-sm">
                                 Cabinet de conseil en ressources humaines et d'accompagnement des entreprises et des dirigeants.

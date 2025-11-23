@@ -10,12 +10,18 @@ export function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="border-b bg-white/80 backdrop-blur-md sticky top-0 z-50">
+        <header className="border-b bg-white/80 dark:bg-black/80 backdrop-blur-md sticky top-0 z-50">
             <div className="container mx-auto px-4 h-20 md:h-28 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2">
-                    <span className="font-playfair text-2xl md:text-3xl font-bold text-primary tracking-tight">
-                        AK ONE
-                    </span>
+                    <div className="relative w-48 h-16 md:w-80 md:h-28 transition-all duration-300">
+                        <Image
+                            src="/akone-logo-v3.png"
+                            alt="AK ONE Logo"
+                            fill
+                            className="object-contain"
+                            priority
+                        />
+                    </div>
                 </Link>
 
                 {/* Desktop Navigation */}
