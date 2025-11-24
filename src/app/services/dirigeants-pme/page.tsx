@@ -24,23 +24,66 @@ export default function DirigeantsPMEPage() {
                                 Être dirigeant de PME, c'est souvent devoir tout gérer de front. Je vous apporte le recul et l'expertise nécessaires pour piloter votre capital humain avec sérénité.
                             </p>
 
-                            <h3 className="text-2xl font-playfair font-bold text-foreground mb-4">Mon rôle à vos côtés</h3>
+                            <h3 className="text-2xl font-playfair font-bold text-foreground mb-8 text-center">Nos Packs d'Accompagnement</h3>
                             <div className="grid md:grid-cols-2 gap-6 mb-12">
-                                <div className="bg-card p-6 rounded-xl border">
-                                    <h4 className="font-bold text-foreground mb-2">Sparring Partner</h4>
-                                    <p className="text-sm">Un espace de confiance pour challenger vos idées, préparer vos décisions stratégiques et prendre du recul.</p>
+                                {/* Pack 1 */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <h4 className="font-bold text-xl text-primary mb-2">Diagnostic RH & Feuille de route</h4>
+                                    <p className="text-sm text-muted-foreground mb-4 italic">Identifier les priorités RH et structurer un plan d'action</p>
+                                    <ul className="space-y-2 text-sm mb-4">
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Audit flash ou approfondi</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Entretiens dirigeant & managers</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Plan d'action priorisé</li>
+                                    </ul>
+                                    <p className="text-xs font-medium text-muted-foreground mt-4 border-t pt-2">Format : Atelier de restitution + livrable</p>
                                 </div>
-                                <div className="bg-card p-6 rounded-xl border">
-                                    <h4 className="font-bold text-foreground mb-2">Sécurisation RH</h4>
-                                    <p className="text-sm">Audit de vos risques sociaux, mise en conformité et gestion des situations de crise.</p>
+
+                                {/* Pack 2 */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <h4 className="font-bold text-xl text-primary mb-2">Starter RH</h4>
+                                    <p className="text-sm text-muted-foreground mb-4 italic">Pour PME sans service RH : structurer l'essentiel</p>
+                                    <ul className="space-y-2 text-sm mb-4">
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Audit des pratiques existantes</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Création de templates (contrats, fiches de poste)</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Formation d'un référent RH interne</li>
+                                    </ul>
+                                    <p className="text-xs font-medium text-muted-foreground mt-4 border-t pt-2">Format : Mission de 2 mois + kit RH</p>
                                 </div>
-                                <div className="bg-card p-6 rounded-xl border">
-                                    <h4 className="font-bold text-foreground mb-2">Recrutement Stratégique</h4>
-                                    <p className="text-sm">Définition des besoins clés, structuration de l'équipe de direction et fidélisation des talents.</p>
+
+                                {/* Pack 3 */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <h4 className="font-bold text-xl text-primary mb-2">Sécurisation RH & Conformité</h4>
+                                    <p className="text-sm text-muted-foreground mb-4 italic">Assurer la conformité et prévenir les risques</p>
+                                    <ul className="space-y-2 text-sm mb-4">
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Mise en conformité des contrats</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Audit des obligations légales (CSE, affichage)</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Prévention des risques psycho-sociaux</li>
+                                    </ul>
+                                    <p className="text-xs font-medium text-muted-foreground mt-4 border-t pt-2">Format : Mission ponctuelle ou suivi annuel</p>
                                 </div>
-                                <div className="bg-card p-6 rounded-xl border">
-                                    <h4 className="font-bold text-foreground mb-2">Transmission</h4>
-                                    <p className="text-sm">Préparer la relève, accompagner la cession ou la transmission familiale sous l'angle humain.</p>
+
+                                {/* Pack 4 */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <h4 className="font-bold text-xl text-primary mb-2">Digitalisation RH</h4>
+                                    <p className="text-sm text-muted-foreground mb-4 italic">Automatiser pour gagner du temps</p>
+                                    <ul className="space-y-2 text-sm mb-4">
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Sélection et mise en place d'un SIRH</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Formation aux nouveaux outils</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Optimisation des workflows administratifs</li>
+                                    </ul>
+                                    <p className="text-xs font-medium text-muted-foreground mt-4 border-t pt-2">Format : Mission ponctuelle avec accompagnement</p>
+                                </div>
+
+                                {/* Pack 5 - Full width centered if possible, or just in grid */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow md:col-span-2 md:w-2/3 md:mx-auto">
+                                    <h4 className="font-bold text-xl text-primary mb-2">Engagement & Fidélisation</h4>
+                                    <p className="text-sm text-muted-foreground mb-4 italic">Développer la culture d'entreprise et l'expérience collaborateur</p>
+                                    <ul className="space-y-2 text-sm mb-4">
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Enquêtes de satisfaction & baromètres</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Onboarding & Parcours d'intégration</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Politique d'avantages & QVT</li>
+                                    </ul>
+                                    <p className="text-xs font-medium text-muted-foreground mt-4 border-t pt-2">Format : Accompagnement sur 3 à 6 mois</p>
                                 </div>
                             </div>
 
