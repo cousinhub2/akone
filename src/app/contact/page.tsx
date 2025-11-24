@@ -93,7 +93,6 @@ ${formData.message}
                                         <div>
                                             <h3 className="font-bold text-foreground">Localisation</h3>
                                             <p className="text-muted-foreground">Paris & Île-de-France</p>
-                                            <p className="text-sm text-muted-foreground">Intervention possible dans toute la France</p>
                                         </div>
                                     </div>
 
