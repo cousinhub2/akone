@@ -31,7 +31,7 @@ export default function DirigeantsPMEPage() {
                                     <h4 className="font-bold text-xl text-primary mb-2">Diagnostic RH & Feuille de route</h4>
                                     <p className="text-sm text-muted-foreground mb-4 italic">Identifier les priorités RH et structurer un plan d'action</p>
                                     <ul className="space-y-2 text-sm mb-4">
-                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Audit flash ou approfondi</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Diagnostic flash ou approfondi</li>
                                         <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Entretiens dirigeant & managers</li>
                                         <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Plan d'action priorisé</li>
                                     </ul>
@@ -43,7 +43,7 @@ export default function DirigeantsPMEPage() {
                                     <h4 className="font-bold text-xl text-primary mb-2">Starter RH</h4>
                                     <p className="text-sm text-muted-foreground mb-4 italic">Pour PME sans service RH : structurer l'essentiel</p>
                                     <ul className="space-y-2 text-sm mb-4">
-                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Audit des pratiques existantes</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> État des lieux des pratiques existantes</li>
                                         <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Création de templates (contrats, fiches de poste)</li>
                                         <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Formation d'un référent RH interne</li>
                                     </ul>
@@ -56,7 +56,7 @@ export default function DirigeantsPMEPage() {
                                     <p className="text-sm text-muted-foreground mb-4 italic">Assurer la conformité et prévenir les risques</p>
                                     <ul className="space-y-2 text-sm mb-4">
                                         <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Mise en conformité des contrats</li>
-                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Audit des obligations légales (CSE, affichage)</li>
+                                        <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Vérification des obligations légales (CSE, affichage)</li>
                                         <li className="flex items-start gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-1 shrink-0" /> Prévention des risques psycho-sociaux</li>
                                     </ul>
                                     <p className="text-xs font-medium text-muted-foreground mt-4 border-t pt-2">Format : Mission ponctuelle ou suivi annuel</p>

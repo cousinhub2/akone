@@ -12,7 +12,7 @@ export default function ConseilStrategiquePage() {
                     <div className="container mx-auto px-4 text-center">
                         <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">Conseil Stratégique & Opérationnel</h1>
                         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                            Auditer, structurer et transformer votre organisation pour aligner le capital humain avec vos objectifs business.
+                            Diagnostiquer, structurer et transformer votre organisation pour aligner le capital humain avec vos objectifs business.
                         </p>
                     </div>
                 </section>
@@ -28,7 +28,7 @@ export default function ConseilStrategiquePage() {
                             <ul className="space-y-4 mb-12">
                                 <li className="flex items-start gap-3">
                                     <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
-                                    <span><strong>Audit RH 360° :</strong> Analyse de vos pratiques, conformité et climat social.</span>
+                                    <span><strong>Diagnostic RH 360° :</strong> Analyse de vos pratiques, conformité et climat social.</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
