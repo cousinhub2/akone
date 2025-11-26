@@ -3,13 +3,13 @@ import { blogPosts } from "@/lib/blog-data";
 import { notFound } from "next/navigation";
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2 } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { ShareButton } from "@/components/blog/share-button";
 import ReactMarkdown from 'react-markdown';
 
 interface BlogPostPageProps {
-    params: {
+    params: Promise<{
         slug: string;
-    };
+    }>;
 }
 
 // Generate static params for all blog posts
@@ -19,8 +19,9 @@ export async function generateStaticParams() {
     }));
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-    const post = blogPosts.find((p) => p.slug === params.slug);
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+    const { slug } = await params;
+    const post = blogPosts.find((p) => p.slug === slug);
 
     if (!post) {
         notFound();
@@ -53,16 +54,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                         <div className="mt-12 pt-8 border-t flex justify-between items-center">
                             <p className="font-playfair font-bold text-lg">Partager cet article</p>
                             <div className="flex gap-2">
-                                <Button variant="outline" size="icon" onClick={() => {
-                                    if (typeof navigator !== 'undefined') {
-                                        navigator.share({
-                                            title: post.title,
-                                            url: window.location.href
-                                        }).catch(() => { });
-                                    }
-                                }}>
-                                    <Share2 className="h-4 w-4" />
-                                </Button>
+                                <ShareButton title={post.title} url={`https://akone.org/blog/${post.slug}`} />
                             </div>
                         </div>
 
