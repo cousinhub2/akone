@@ -185,5 +185,43 @@ Il y a encore des efforts à faire pour qu’ « Un jeune, une solution » devie
 
 #orientation #entreprises #bénévolat #alternance
         `
+    },
+    {
+        id: "6",
+        slug: "ma-decouverte-du-monde-fascinant-de-lia-depuis-larrivee-fracassante-de-chatgpt",
+        title: "Ma découverte du monde fascinant de l’IA depuis l’arrivée fracassante de ChatGPT",
+        date: "18 Juillet 2023",
+        readTime: "2 min",
+        category: "IA & Innovation",
+        excerpt: "Mes découvertes sur l'IA générative, ses impacts sur les métiers et les compétences des leaders de demain.",
+        content: `
+Comme le résume Aurélie Jean récemment « ChatGPT est avant tout une interface ludique avec des interactions anthropomorphiques qui a permis simplifier notre accès à l’IA ».
+
+Après avoir testé plusieurs prompts, j’ai une envie d’aller plus loin et de chercher à comprendre de quoi on parle, les impacts sur les métiers, les avancées géniales que cela représente déjà dans certains métiers comme la santé et aussi les risques de biais …sans me prendre pour notre Nostradamus.
+
+### Voila les ressources que j’ai trouvées intéressantes
+
+L’épisode « L’IA et l’avenir du travail » dans le podcast de Laetitia Vitaud « Nouveau départ » était particulièrement accessible au novice comme moi. Y est abordé les questions de l’impact sur les métiers et notamment ceux de création de continu ou de développeurs, les tentatives de régulation, les opportunités pour la Santé ou les avocats. Hyper intéressant.
+
+Puis je suis montée en difficulté avec les 2 Podcasts suivants :
+*   **The Daily** (en anglais) qui fait un reportage génial « a week with the wild children of the AI boom" et vous plonge dans les coulisses d’un accélérateur IA dans la Silicon Valley. On a l’impression de voir ce qui s’y passe. J’ai adoré.
+*   Celui de **Matthieu Stefani** avec **Laurent Alexandre** qui dure plus de 2h… c’est très long, cela donne le temps de dérouler toutes les questions. Ce dernier n’est pas dans le politiquement correct, parfois agaçant, il affirme que c’est maintenant qu’il faut absolument se mettre à ChatGPT 4 car dans 6 mois ce sera trop tard.
+
+Je suis sortie un peu secouée prête à prendre l’abonnement à 20$ et surtout proposé à mon aîné de suivre la même formation que mon mari pendant les vacances « learning prompt » disponible sur [learnprompting.org](https://learnprompting.org/).
+
+Je n’ai pas encore lu le livre d’Aurélie Jean auteur de « Les algorithmes font-ils la loi » et son nouveau livre avec un roman d’anticipation rédigé avec Amanda Sthers « Résistance 50 » avec une France coupée en 2. Une partie de la population a une puce dans le cerveau et l’autre non. Un de leur objectif est de susciter un questionnement autour de l’accompagnement éthique autour des nouvelles technologies.
+
+Pour les initiés il y a aussi le podcast hyper sérieux de Nicolas Guyon avec Comptoir IA si vous êtes pesez déjà « dans le Game » pour parler comme mon fils de 14 ans qui vient de sortir un passeport IA formation à faire si vous êtes novice.
+
+Pour continuer mon apprentissage, sur l’IA, fin juin j’ai eu la chance d’assister au 1er colloque organisé dans le cadre de #executive éducation à Dauphine autour de l’IA collaborative et aborder ses impacts managériaux avec des regards croisées d’experts, chercheurs,…
+
+L’article d’Harvard Business Review est bien sûr incontournable pour comprendre comment l’IA va impacter les organisations, et les compétences des leaders qui devront combiner les 3 types d’intelligences : intelligence artificielle, intelligence humaines et surtout intelligence du cœur.
+
+Encore une occasion, si vous doutiez de développer vos managers, leaders à mieux se connaître pour accepter les autres et acquérir ses compétences relationnelles plus que stratégiques si la machine aide à décider plus vite et mieux que vous.
+
+[Lire l'article HBR](https://www.hbrfrance.fr/chroniques-experts/2019/02/24476-le-leader-de-demain-devra-combiner-intelligences-emotionnelle-artificielle-et-collective/)
+
+Et vous comment faites-vous pour en savoir plus sur l’IA ?
+        `
     }
 ];

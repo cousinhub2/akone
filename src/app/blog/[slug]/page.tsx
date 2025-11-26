@@ -1,7 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { blogPosts } from "@/lib/blog-data";
 import { notFound } from "next/navigation";
-import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, ArrowRight, Share2 } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import ReactMarkdown from 'react-markdown';
@@ -64,6 +64,35 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                                     <Share2 className="h-4 w-4" />
                                 </Button>
                             </div>
+                        </div>
+
+                        <div className="mt-12 grid grid-cols-2 gap-4">
+                            {(() => {
+                                const currentIndex = blogPosts.findIndex(p => p.id === post.id);
+                                const prevPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : null;
+                                const nextPost = currentIndex < blogPosts.length - 1 ? blogPosts[currentIndex + 1] : null;
+
+                                return (
+                                    <>
+                                        <div>
+                                            {prevPost && (
+                                                <Link href={`/blog/${prevPost.slug}`} className="group block p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                                                    <div className="text-xs text-muted-foreground mb-1 flex items-center"><ArrowLeft className="h-3 w-3 mr-1" /> Article précédent</div>
+                                                    <div className="font-medium text-sm group-hover:text-primary line-clamp-2">{prevPost.title}</div>
+                                                </Link>
+                                            )}
+                                        </div>
+                                        <div className="text-right">
+                                            {nextPost && (
+                                                <Link href={`/blog/${nextPost.slug}`} className="group block p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                                                    <div className="text-xs text-muted-foreground mb-1 flex items-center justify-end">Article suivant <ArrowRight className="h-3 w-3 ml-1" /></div>
+                                                    <div className="font-medium text-sm group-hover:text-primary line-clamp-2">{nextPost.title}</div>
+                                                </Link>
+                                            )}
+                                        </div>
+                                    </>
+                                );
+                            })()}
                         </div>
                     </div>
                 </article>
