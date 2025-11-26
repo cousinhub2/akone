@@ -1,0 +1,73 @@
+import { Header } from "@/components/layout/header";
+import { blogPosts } from "@/lib/blog-data";
+import { notFound } from "next/navigation";
+import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import ReactMarkdown from 'react-markdown';
+
+interface BlogPostPageProps {
+    params: {
+        slug: string;
+    };
+}
+
+// Generate static params for all blog posts
+export async function generateStaticParams() {
+    return blogPosts.map((post) => ({
+        slug: post.slug,
+    }));
+}
+
+export default function BlogPostPage({ params }: BlogPostPageProps) {
+    const post = blogPosts.find((p) => p.slug === params.slug);
+
+    if (!post) {
+        notFound();
+    }
+
+    return (
+        <div className="min-h-screen flex flex-col">
+            <Header />
+            <main className="flex-1">
+                <article className="py-20">
+                    <div className="container mx-auto px-4 max-w-3xl">
+                        <Link href="/blog" className="inline-flex items-center text-muted-foreground hover:text-primary mb-8 transition-colors">
+                            <ArrowLeft className="mr-2 h-4 w-4" /> Retour au blog
+                        </Link>
+
+                        <header className="mb-10">
+                            <div className="text-primary font-medium mb-4">{post.category}</div>
+                            <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6 leading-tight">{post.title}</h1>
+
+                            <div className="flex items-center gap-6 text-muted-foreground border-b pb-8">
+                                <span className="flex items-center gap-2"><Calendar className="h-4 w-4" /> {post.date}</span>
+                                <span className="flex items-center gap-2"><Clock className="h-4 w-4" /> {post.readTime} de lecture</span>
+                            </div>
+                        </header>
+
+                        <div className="prose prose-lg max-w-none prose-headings:font-playfair prose-headings:font-bold prose-p:text-muted-foreground prose-a:text-primary prose-li:text-muted-foreground">
+                            <ReactMarkdown>{post.content}</ReactMarkdown>
+                        </div>
+
+                        <div className="mt-12 pt-8 border-t flex justify-between items-center">
+                            <p className="font-playfair font-bold text-lg">Partager cet article</p>
+                            <div className="flex gap-2">
+                                <Button variant="outline" size="icon" onClick={() => {
+                                    if (typeof navigator !== 'undefined') {
+                                        navigator.share({
+                                            title: post.title,
+                                            url: window.location.href
+                                        }).catch(() => { });
+                                    }
+                                }}>
+                                    <Share2 className="h-4 w-4" />
+                                </Button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </div>
+    );
+}

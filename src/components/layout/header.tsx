@@ -40,6 +40,7 @@ export function Header() {
                         </div>
                     </div>
                     <Link href="/#about" className="hover:text-primary transition-colors">À propos</Link>
+                    <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
                     <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
                     <Link href="/rendez-vous">
                         <Button>Prendre rendez-vous</Button>
@@ -69,6 +70,7 @@ export function Header() {
                     </div>
                     <hr />
                     <Link href="/#about" className="py-2 font-medium hover:text-primary text-black" onClick={() => setIsMenuOpen(false)}>À propos</Link>
+                    <Link href="/blog" className="py-2 font-medium hover:text-primary text-black" onClick={() => setIsMenuOpen(false)}>Blog</Link>
                     <Link href="/contact" className="py-2 font-medium hover:text-primary text-black" onClick={() => setIsMenuOpen(false)}>Contact</Link>
                     <Link href="/rendez-vous" onClick={() => setIsMenuOpen(false)}>
                         <Button className="w-full">Prendre rendez-vous</Button>
