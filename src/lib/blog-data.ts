@@ -12,6 +12,95 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
+        id: "8",
+        slug: "loi-2025-transmission-savoirs-seniors",
+        title: "Loi 2025 : Transformer la transmission des savoirs en levier de performance",
+        date: "26 Octobre 2025",
+        readTime: "3 min",
+        category: "Stratégie RH",
+        excerpt: "La loi du 24 octobre 2025 change la donne. Il ne s'agit plus de gérer la fin de carrière, mais de transmettre les savoirs critiques avant qu'il ne soit trop tard.",
+        image: "/blog-transmission-savoirs.jpg",
+        content: `
+Les entreprises sont face à un tournant stratégique.
+Et cette fois, il ne s’agit pas seulement d’anticiper les départs à la retraite.
+
+La loi du 24 octobre 2025 change la donne et incite à mieux accompagner les salariés expérimentés.
+
+→ En clair : il ne s’agit plus de “gérer la fin”, mais de transmettre avant qu’il ne soit trop tard.
+
+Dans chaque PME, il existe des savoirs critiques :
+• les gestes techniques,
+• les relations de confiance,
+• l'historique et la mémoire client,
+• le sens du métier.
+
+↳ Ces trésors disparaissent souvent dans le silence.
+
+### Le paradoxe ?
+
+Ceux qui détiennent ces savoirs veulent transmettre.
+Mais ni eux, ni leurs managers ne savent comment organiser cette transmission.
+
+Valoriser les savoirs des seniors, c’est bien plus qu’un enjeu RH :
+
+→ c’est un symbole fort,
+→ un levier de performance,
+→ et une reconnaissance du parcours.
+
+### Comment agir ?
+
+☑︎ Identifier les compétences clés menacées.
+☑︎ Créer des binômes intergénérationnels.
+☑︎ Former les experts à la posture de mentor.
+☑︎ Intégrer la transmission dans les plans RH.
+
+Transmettre, c’est mieux préparer l’avenir.
+Et surtout, c’est reconnaître l’expérience comme un capital. Un signe fort pour les équipes.
+
+Et vous, dans votre entreprise :
+
+➡️ Comment valorisez-vous vos collaborateurs expérimentés ?
+➡️ Avez-vous déjà structuré un programme de transmission ?
+
+**Besoin d’être accompagné sur ces enjeux ? Contactez moi je peux vous aider.**
+        `
+    },
+    {
+        id: "9",
+        slug: "management-authenticite-tomber-le-masque",
+        title: "Management et authenticité : quand le costume devient trop serré",
+        date: "15 Octobre 2025",
+        readTime: "2 min",
+        category: "Management & Coaching",
+        excerpt: "Le management ne devrait pas être un costume trop serré. Oser tomber le masque pour mieux incarner son rôle et se reconnecter à soi-même.",
+        image: "/blog-manager-masque.jpg",
+        content: `
+Tout le monde joue sa partition au bureau. Chacun a son propre "agenda" et adopte la posture adéquate.
+
+Le manager doit faire semblant chaque jour.
+
+Pire que d'aller contre ses valeurs.
+
+Porter un masque.
+Un rôle appris.
+Des codes imposés.
+
+On leur demande de “gérer”.
+
+Pas toujours d’incarner.
+
+Petit à petit, ils s’éloignent de ce qu’ils sont profondément.
+Jusqu’à ne plus se reconnaître.
+Et quand on retire le masque, il reste quoi ?
+
+### Le management ne devrait pas être un costume trop serré.
+
+Il devrait être une expression de soi.
+
+Est-ce que vous vous reconnaissez encore dans la personne que vous incarnez au travail ?
+        `
+    },
+    {
         id: "1",
         slug: "les-rh-ne-sont-pas-des-figurants",
         title: "Les RH ne sont pas des figurants dans votre organisation",
