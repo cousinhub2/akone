@@ -149,6 +149,7 @@ C'est se reconnecter à ce qui compte pour soi — profondément et durablement.
         readTime: "1 min",
         category: "IA & Entrepreneuriat",
         excerpt: "Découverte des projets français en lien avec l'IA lors d'une soirée rythmée et énergisante avec Comptoir IA.",
+        image: "/blog-comptoir-ia.jpg",
         content: `
 Une (nouvelle) soirée pas comme les autres avec [Comptoir IA](https://www.linkedin.com/company/comptoir-ia/).
 
