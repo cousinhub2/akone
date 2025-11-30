@@ -61,10 +61,10 @@ export default function LeaderRHPage() {
                             </div>
                         </div>
 
-                        <div className="mt-16 text-center">
-                            <Link href="/contact?subject=Conseil RH & Stratégie">
+                        <div className="mt-12 text-center">
+                            <Link href="/contact?subject=Leader RH & DRH à temps partagé">
                                 <Button size="lg">
-                                    Discuter de vos besoins RH <ArrowRight className="ml-2 h-4 w-4" />
+                                    Trouver votre Leader RH <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
                             </Link>
                         </div>

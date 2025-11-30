@@ -159,10 +159,13 @@ ${formData.message}
                                             className="w-full p-3 rounded-md border bg-background focus:ring-2 focus:ring-primary/20 outline-none transition-all"
                                         >
                                             <option value="">Sélectionnez un sujet</option>
-                                            <option value="Conseil RH & Stratégie">Conseil RH & Stratégie</option>
-                                            <option value="Coaching & Leadership">Coaching & Leadership</option>
-                                            <option value="Transition & Orientation">Transition & Orientation</option>
-                                            <option value="Coaching Jeunes">Coaching Jeunes</option>
+                                            <option value="Conseil Stratégique RH">Conseil Stratégique RH</option>
+                                            <option value="Accompagnement Dirigeants PME">Accompagnement Dirigeants PME</option>
+                                            <option value="Leader RH & DRH à temps partagé">Leader RH & DRH à temps partagé</option>
+                                            <option value="Coaching de Dirigeants & Managers">Coaching de Dirigeants & Managers</option>
+                                            <option value="Coaching Jeunes & Orientation">Coaching Jeunes & Orientation</option>
+                                            <option value="Transition Professionnelle">Transition Professionnelle</option>
+                                            <option value="Demande de rendez-vous">Demande de rendez-vous</option>
                                             <option value="Autre demande">Autre demande</option>
                                         </select>
                                     </div>

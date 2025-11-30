@@ -46,10 +46,10 @@ export default function ConseilStrategiquePage() {
                             </div>
                         </div>
 
-                        <div className="mt-16 text-center">
-                            <Link href="/contact?subject=Conseil RH & Stratégie">
+                        <div className="mt-12 text-center">
+                            <Link href="/contact?subject=Conseil Stratégique RH">
                                 <Button size="lg">
-                                    Demander un audit <ArrowRight className="ml-2 h-4 w-4" />
+                                    Discutons de votre stratégie <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
                             </Link>
                         </div>

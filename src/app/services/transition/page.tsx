@@ -49,10 +49,10 @@ export default function TransitionPage() {
                             </div>
                         </div>
 
-                        <div className="mt-16 text-center">
-                            <Link href="/contact?subject=Transition & Orientation">
+                        <div className="mt-12 text-center">
+                            <Link href="/contact?subject=Transition Professionnelle">
                                 <Button size="lg">
-                                    Démarrer votre transition <ArrowRight className="ml-2 h-4 w-4" />
+                                    Préparer votre transition <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
                             </Link>
                         </div>

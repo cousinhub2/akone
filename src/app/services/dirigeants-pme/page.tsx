@@ -92,10 +92,10 @@ export default function DirigeantsPMEPage() {
                             </p>
                         </div>
 
-                        <div className="mt-16 text-center">
-                            <Link href="/contact?subject=Conseil RH & Stratégie">
+                        <div className="mt-12 text-center">
+                            <Link href="/contact?subject=Accompagnement Dirigeants PME">
                                 <Button size="lg">
-                                    Échanger entre dirigeants <ArrowRight className="ml-2 h-4 w-4" />
+                                    Échanger sur vos enjeux <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
                             </Link>
                         </div>

@@ -96,10 +96,10 @@ export default function CoachingJeunesPage() {
                             </div>
                         </div>
 
-                        <div className="mt-16 text-center">
-                            <Link href="/contact?subject=Coaching Jeunes">
+                        <div className="mt-12 text-center">
+                            <Link href="/contact?subject=Coaching Jeunes & Orientation">
                                 <Button size="lg">
-                                    Aider mon enfant à s'orienter <ArrowRight className="ml-2 h-4 w-4" />
+                                    En savoir plus <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
                             </Link>
                         </div>
