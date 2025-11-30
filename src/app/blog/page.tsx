@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { blogPosts } from "@/lib/blog-data";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 export default function BlogPage() {
@@ -22,6 +23,16 @@ export default function BlogPage() {
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                             {blogPosts.map((post) => (
                                 <article key={post.id} className="bg-card rounded-xl border shadow-sm hover:shadow-md transition-shadow flex flex-col overflow-hidden">
+                                    {post.image && (
+                                        <div className="relative w-full h-48 overflow-hidden">
+                                            <Image
+                                                src={post.image}
+                                                alt={post.title}
+                                                fill
+                                                className="object-cover"
+                                            />
+                                        </div>
+                                    )}
                                     <div className="p-6 flex-1 flex flex-col">
                                         <div className="text-sm text-primary font-medium mb-3">{post.category}</div>
                                         <h2 className="font-playfair text-2xl font-bold mb-3 hover:text-primary transition-colors">

@@ -3,6 +3,7 @@ import { blogPosts } from "@/lib/blog-data";
 import { notFound } from "next/navigation";
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { ShareButton } from "@/components/blog/share-button";
 import ReactMarkdown from 'react-markdown';
 
@@ -46,6 +47,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                                 <span className="flex items-center gap-2"><Clock className="h-4 w-4" /> {post.readTime} de lecture</span>
                             </div>
                         </header>
+
+                        {post.image && (
+                            <div className="relative w-full h-96 rounded-xl overflow-hidden mb-10">
+                                <Image
+                                    src={post.image}
+                                    alt={post.title}
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                        )}
 
                         <div className="prose prose-lg max-w-none prose-headings:font-playfair prose-headings:font-bold prose-p:text-muted-foreground prose-a:text-primary prose-li:text-muted-foreground">
                             <ReactMarkdown>{post.content}</ReactMarkdown>

@@ -223,5 +223,50 @@ Encore une occasion, si vous doutiez de développer vos managers, leaders à mie
 
 Et vous comment faites-vous pour en savoir plus sur l’IA ?
         `
+    },
+    {
+        id: "7",
+        slug: "du-soin-au-coaching-un-heritage-familial",
+        title: "Du soin au coaching : un héritage familial",
+        date: "30 Novembre 2024",
+        readTime: "2 min",
+        category: "À propos",
+        excerpt: "Chez moi, on parlait souvent de santé, d'humain, de traitements. C'était normal : mes parents étaient soignants.",
+        image: "/blog-helene-bibliotheque.jpg",
+        content: `
+Chez moi, on parlait souvent de santé, d'humain, de traitements.
+C'était normal : mes parents étaient soignants.
+
+J'ai grandi dans une famille où les sujets de table étaient médicaux… et profondément humains.
+
+Mon père, médecin généraliste et médecin du travail.
+Ma mère, infirmière de bloc.
+
+Tous deux à la tête d'une famille nombreuse — neuf enfants — et d'une autre famille invisible : leurs patients.
+
+À la maison, j'ai appris le **"care"**, avant même que de connaître le mot et son sens.
+
+Prendre soin.
+Être présent.
+Écouter sans juger.
+
+Je n'ai jamais fait de gardes, ni sauvé de vies.
+
+Mais à mon humble niveau, j'essaye d'aider les gens à remettre du mouvement dans la leur.
+
+### Je ne crois pas aux coachings miracles
+
+Je ne crois pas aux gourous.
+ 
+Je crois à l'écoute, au respect de la singularité, à l'optimisme lucide.
+
+Et surtout à ce moment unique où quelque chose bascule : un regard qui s'éclaire, une énergie qui revient, une décision qui s'aligne, une envie qui émerge.
+
+Pour moi, un coaching, ce n'est pas "changer". C'est **réapprendre à se faire confiance**, avec le soutien d'un regard bienveillant et exigeant du coach.
+
+C'est se reconnecter à ce qui compte pour soi — profondément et durablement.
+
+👉 **Et vous, qu'est-ce qui vous aide à vous reconnecter à ce qui compte vraiment ?**
+        `
     }
 ];
