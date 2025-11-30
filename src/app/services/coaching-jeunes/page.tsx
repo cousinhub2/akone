@@ -97,7 +97,7 @@ export default function CoachingJeunesPage() {
                         </div>
 
                         <div className="mt-12 text-center">
-                            <Link href="/contact?subject=Coaching Jeunes & Orientation">
+                            <Link href="/contact?subject=Coaching Jeunes %26 Orientation">
                                 <Button size="lg">
                                     En savoir plus <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>

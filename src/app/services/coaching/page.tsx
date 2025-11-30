@@ -49,7 +49,7 @@ export default function CoachingPage() {
                         </div>
 
                         <div className="mt-16 text-center">
-                            <Link href="/contact?subject=Coaching de Dirigeants & Managers">
+                            <Link href="/contact?subject=Coaching de Dirigeants %26 Managers">
                                 <Button size="lg">
                                     Découvrir le coaching <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
