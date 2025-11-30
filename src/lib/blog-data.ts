@@ -19,6 +19,7 @@ export const blogPosts: BlogPost[] = [
         readTime: "2 min",
         category: "Ressources Humaines",
         excerpt: "Les ressources humaines sont un levier stratégique indispensable. En 2025, il est temps d’arrêter de sous-estimer leur rôle.",
+        image: "/blog-rh-figurants.jpg",
         content: `
 Les ressources humaines sont un levier stratégique indispensable. En 2025, il est temps d’arrêter de sous-estimer leur rôle. En effet, les RH jouent un rôle crucial dans la construction et le développement de votre culture d’entreprise. Pourtant, elles se retrouvent encore trop souvent cantonnées à des tâches administratives, à la gestion de la conformité juridique ou sollicitées uniquement en cas de crise.
 
@@ -62,6 +63,7 @@ N'hésitez pas à me solliciter pour échanger ! Je suis là pour vous accompagn
         readTime: "1 min",
         category: "Stratégie RH",
         excerpt: "Comment percevez-vous les RH dans votre organisation ? En 2025, il est temps de leur offrir la place qu’elles méritent.",
+        image: "/blog-rh-strategie.jpg",
         content: `
 Comment percevez-vous les RH dans votre organisation ? En 2025, il est temps de leur offrir la place qu’elles méritent pour booster votre performance et votre culture d’entreprise.
 
@@ -167,6 +169,7 @@ Si vous voulez y aller suivez [Nicolas Guyon](https://www.linkedin.com/in/nicogu
         readTime: "3 min",
         category: "Management & Coaching",
         excerpt: "En tant que manager, il est essentiel de bien connaître ses équipes et de découvrir leurs talents. Voici 10 raisons d'investir dans le coaching d'équipe.",
+        image: "/blog-coaching-equipe.jpg",
         content: `
 En tant que manager, il est essentiel de bien connaître ses équipes et de découvrir leurs talents. Cela permet non seulement d'optimiser les performances de l'équipe, mais aussi de favoriser le développement individuel de chaque membre. Le coaching d'équipe est un outil précieux pour atteindre ces objectifs.
 
@@ -213,6 +216,7 @@ En conclusion, le coaching d'équipe est un outil puissant pour un manager qui s
         readTime: "1 min",
         category: "Orientation & Formation",
         excerpt: "Retour d'expérience sur une matinée de bénévolat au salon \"Jeunes d'avenir\".",
+        image: "/blog-salon-jeunes.jpg",
         content: `
 Une nouvelle matinée pas comme les autres au salon "Jeunes d'avenir".
 
@@ -239,6 +243,7 @@ Il y a encore des efforts à faire pour qu’ « Un jeune, une solution » devie
         readTime: "2 min",
         category: "IA & Innovation",
         excerpt: "Mes découvertes sur l'IA générative, ses impacts sur les métiers et les compétences des leaders de demain.",
+        image: "/blog-ia-chatgpt.jpg",
         content: `
 Comme le résume Aurélie Jean récemment « ChatGPT est avant tout une interface ludique avec des interactions anthropomorphiques qui a permis simplifier notre accès à l’IA ».
 
