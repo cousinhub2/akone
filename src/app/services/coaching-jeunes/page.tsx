@@ -88,6 +88,59 @@ export default function CoachingJeunesPage() {
                                 </div>
                             </div>
 
+                            <h3 className="text-2xl font-playfair font-bold text-foreground mb-8 text-center">Ce qu'ils en disent</h3>
+                            <div className="grid md:grid-cols-2 gap-6 mb-12">
+                                {/* Tristan */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <div className="space-y-4 text-sm italic text-muted-foreground mb-4">
+                                        <p>« Grâce à ce test j’ai pu comprendre comment transposer les actions et les idées de la vie de tous les jours dans le monde professionnel. »</p>
+                                        <p>« J’ai pris du recul face à la manière dont l’école nous présente certains métiers. »</p>
+                                        <p>« Au début l’idée d’études supérieures m’était lointaine, mais maintenant j’ai une vision plus posée sur le sujet. Le plus important pour moi à été d’essayer de retrouver mes qualités et intérêts scolaires/hors scolaires dans des secteurs d’études ou de professions. »</p>
+                                        <p>« Une chose primordiale dont j’ai pris conscience durant ce coaching, c’est que travailler efficacement, ce n’est pas travailler incessamment, c’est surtout connaître son mode de travail à soi pour se l’approprier et en tirer profit. »</p>
+                                    </div>
+                                    <div className="border-t pt-2">
+                                        <p className="font-bold text-primary">Tristan</p>
+                                        <p className="text-xs text-muted-foreground">17 ans, en classe de 1ère</p>
+                                    </div>
+                                </div>
+
+                                {/* Calie */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <div className="space-y-4 text-sm italic text-muted-foreground mb-4">
+                                        <p>« L'accompagnement Talents m'a aidé à mieux me cerner, à comprendre mon fonctionnement dans mes attentes, et envisager mes études. Aujourd'hui je me connais mieux, c'est plus clair, même si je connaissais un peu quand même. ;-) »</p>
+                                        <p>« Faire le test "Talents", avoir une synthèse, faire la restitution et échanger pour bien comprendre, avancer petit à petit lors des entretiens (d'abord en parlant plus de moi permet de franchir une étape à chaque entretien). »</p>
+                                    </div>
+                                    <div className="border-t pt-2">
+                                        <p className="font-bold text-primary">Calie</p>
+                                        <p className="text-xs text-muted-foreground">16 ans, en classe de 1ère</p>
+                                    </div>
+                                </div>
+
+                                {/* Ava */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <div className="space-y-4 text-sm italic text-muted-foreground mb-4">
+                                        <p>« J’ai appris à parler de moi et de mes talents, ça va m’aider à connaître les secteurs d’activités. »</p>
+                                        <p>« J’ai aimé parler de moi, cela m’a aidé à mieux me connaître, et les outils notamment le questionnaire qui est très intéressant ainsi que l’exercice des cartes. Au début, je me connaissais à 50%, maintenant à 80%. »</p>
+                                        <p>« Je vais le relire, parler de moi avec mes parents, cela m’aidera quand je ferai des choix, et mettre cela en lien avec mes talents. »</p>
+                                    </div>
+                                    <div className="border-t pt-2">
+                                        <p className="font-bold text-primary">Ava</p>
+                                        <p className="text-xs text-muted-foreground">15 ans, en classe de 2de</p>
+                                    </div>
+                                </div>
+
+                                {/* Noam */}
+                                <div className="bg-card p-6 rounded-xl border hover:shadow-lg transition-shadow">
+                                    <div className="space-y-4 text-sm italic text-muted-foreground mb-4">
+                                        <p>« Le test talent m'a aidé à mettre des mots sur mes façons de penser et d'agir. Il m'a permis de mieux me connaître, et m'a apporté un regard nouveau quant à la manière dont je réfléchis mon orientation. »</p>
+                                    </div>
+                                    <div className="border-t pt-2">
+                                        <p className="font-bold text-primary">Noam</p>
+                                        <p className="text-xs text-muted-foreground">20 ans, en licence</p>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="bg-secondary/30 p-8 rounded-2xl">
                                 <h3 className="text-xl font-bold text-foreground mb-4">Préparation au Grand Oral & Entretiens</h3>
                                 <p>
