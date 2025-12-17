@@ -144,7 +144,7 @@ export default function Home() {
                         <div className="col-span-1 md:col-span-2">
                             <div className="relative w-64 h-20 md:w-80 md:h-28 mb-4">
                                 <Image
-                                    src="/akone-logo-v3.png"
+                                    src="/akone-logo-new.png"
                                     alt="AK ONE Logo"
                                     fill
                                     className="object-contain invert mix-blend-screen"

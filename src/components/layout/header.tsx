@@ -15,7 +15,7 @@ export function Header() {
                 <Link href="/" className="flex items-center gap-2">
                     <div className="relative w-48 h-16 md:w-80 md:h-28 transition-all duration-300">
                         <Image
-                            src="/akone-logo-v3.png"
+                            src="/akone-logo-new.png"
                             alt="AK ONE Logo"
                             fill
                             className="object-contain"
