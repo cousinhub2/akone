@@ -34,7 +34,7 @@ export function Header() {
                             <Link href="/services/leader-rh" className="p-2 hover:bg-muted rounded text-sm text-gray-600">Leader RH à temps partiel</Link>
                             <Link href="/services/dirigeants-pme" className="p-2 hover:bg-muted rounded text-sm text-gray-600">Dirigeants PME</Link>
                             <Link href="/services/conseil-strategique" className="p-2 hover:bg-muted rounded text-sm text-gray-600">Conseil Stratégique</Link>
-                            <Link href="/services/coaching" className="p-2 hover:bg-muted rounded text-sm text-gray-600">Coaching & Facilitation</Link>
+                            <Link href="/services/coaching" className="p-2 hover:bg-muted rounded text-sm text-gray-600">Coaching d'équipe</Link>
                             <Link href="/services/coaching-jeunes" className="p-2 hover:bg-muted rounded text-sm text-gray-600">Coaching Jeunes</Link>
                             <Link href="/services/transition" className="p-2 hover:bg-muted rounded text-sm text-gray-600">Orientation & Transition</Link>
                         </div>
@@ -64,7 +64,7 @@ export function Header() {
                         <Link href="/services/leader-rh" className="pl-4 py-2 hover:bg-muted rounded text-sm text-black" onClick={() => setIsMenuOpen(false)}>Leader RH</Link>
                         <Link href="/services/dirigeants-pme" className="pl-4 py-2 hover:bg-muted rounded text-sm text-black" onClick={() => setIsMenuOpen(false)}>Dirigeants PME</Link>
                         <Link href="/services/conseil-strategique" className="pl-4 py-2 hover:bg-muted rounded text-sm text-black" onClick={() => setIsMenuOpen(false)}>Conseil Stratégique</Link>
-                        <Link href="/services/coaching" className="pl-4 py-2 hover:bg-muted rounded text-sm text-black" onClick={() => setIsMenuOpen(false)}>Coaching</Link>
+                        <Link href="/services/coaching" className="pl-4 py-2 hover:bg-muted rounded text-sm text-black" onClick={() => setIsMenuOpen(false)}>Coaching d'équipe</Link>
                         <Link href="/services/coaching-jeunes" className="pl-4 py-2 hover:bg-muted rounded text-sm text-black" onClick={() => setIsMenuOpen(false)}>Coaching Jeunes</Link>
                         <Link href="/services/transition" className="pl-4 py-2 hover:bg-muted rounded text-sm text-black" onClick={() => setIsMenuOpen(false)}>Transition</Link>
                     </div>
