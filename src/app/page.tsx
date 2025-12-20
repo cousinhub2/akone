@@ -134,6 +134,25 @@ export default function Home() {
                                 />
                             </div>
                         </div>
+
+                        {/* LinkedIn Posts Section */}
+                        <div className="mt-20 pt-20 border-t border-muted">
+                            <div className="max-w-4xl mx-auto text-center space-y-8">
+                                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
+                                    <Users className="h-4 w-4" />
+                                    Actualités & Partages
+                                </div>
+                                <h2 className="font-playfair text-3xl md:text-4xl font-bold">Mes réflexions & posts LinkedIn</h2>
+                                <p className="text-lg text-muted-foreground">
+                                    Je partage régulièrement mes retours d'expérience, conseils et réflexions sur le management, les ressources humaines et le coaching. Rejoignez la conversation.
+                                </p>
+                                <Link href="https://www.linkedin.com/in/heleneneukirchrhcoach/recent-activity/all/" target="_blank" rel="noopener noreferrer">
+                                    <Button size="lg" className="bg-[#0077b5] hover:bg-[#006097] text-white">
+                                        Voir mes derniers posts LinkedIn <ArrowRight className="ml-2 h-4 w-4" />
+                                    </Button>
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
@@ -167,7 +186,7 @@ export default function Home() {
                             <ul className="space-y-2 text-gray-400 text-sm">
                                 <li>helene@akone.org</li>
                                 <li>Paris, France</li>
-                                <li><a href="https://www.linkedin.com/in/heleneneukirchrhcoach" target="_blank" rel="noopener noreferrer" className="hover:text-primary">LinkedIn</a></li>
+                                <li><a href="https://www.linkedin.com/in/heleneneukirchrhcoach/recent-activity/all/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Mes posts LinkedIn</a></li>
                             </ul>
                         </div>
                     </div>
