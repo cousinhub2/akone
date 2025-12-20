@@ -141,12 +141,6 @@ export default function CoachingJeunesPage() {
                                 </div>
                             </div>
 
-                            <div className="bg-secondary/30 p-8 rounded-2xl">
-                                <h3 className="text-xl font-bold text-foreground mb-4">Préparation au Grand Oral & Entretiens</h3>
-                                <p>
-                                    Au-delà de l'orientation, je propose des séances spécifiques pour travailler la prise de parole, la posture et la confiance en soi, atouts indispensables pour réussir ses examens et son entrée dans la vie active.
-                                </p>
-                            </div>
                         </div>
 
                         <div className="mt-12 text-center">
