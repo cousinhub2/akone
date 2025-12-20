@@ -166,6 +166,7 @@ ${formData.message}
                                             <option value="Coaching Jeunes & Orientation">Coaching Jeunes & Orientation</option>
                                             <option value="Transition Professionnelle">Transition Professionnelle</option>
                                             <option value="Demande de rendez-vous">Demande de rendez-vous</option>
+                                            <option value="Coaching d'équipe">Coaching d'équipe</option>
                                             <option value="Autre demande">Autre demande</option>
                                         </select>
                                     </div>

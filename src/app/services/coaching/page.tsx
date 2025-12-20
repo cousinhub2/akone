@@ -56,7 +56,14 @@ export default function CoachingPage() {
                             <div className="bg-card p-8 rounded-xl border mt-12">
                                 <h3 className="text-xl font-playfair font-bold text-foreground mb-4">Ma formation</h3>
                                 <p className="text-sm">
-                                    Certificat Management & Coaching - Coaching d'équipe en entreprise (Dauphine PSL)
+                                    <a
+                                        href="https://executive-education.dauphine.psl.eu/formations/certificat/coaching-equipe-management"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-primary hover:underline"
+                                    >
+                                        Certificat Management & Coaching - Coaching d'équipe en entreprise (Dauphine PSL)
+                                    </a>
                                 </p>
                             </div>
                         </div>
